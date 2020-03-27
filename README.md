@@ -22,9 +22,10 @@ npm install covid-facts
 ## Usage
 
 ```javascript
-var facts = require('covid-facts');
-var allFacts = facts.all;
-var randomFact = facts.random();
+const facts = require('covid-facts');
+const allFacts = facts.all;
+const randomFact = facts.random();
+const fourFacts = facts.some(4);
 
 ```
 ## Other

@@ -22,12 +22,11 @@ npm install covid-facts
 ## Usage
 
 ```javascript
-var names = require('covid-facts');
-var allNames = names.all;
-var randomName = names.random();
-// var threeRandomNames = names.random(3);
-```
+var facts = require('covid-facts');
+var allFacts = facts.all;
+var randomFact = facts.random();
 
+```
 ## Other
 
 This library was developed by [phirmware](https://twitter.com/phirmware).

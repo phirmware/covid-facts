@@ -1,11 +1,11 @@
 # COVID-19 FACTS AND TIPS
 
-[![travis build](https://travis-ci.com/phirmware/covid-facts.svg)](https://travis-ci.org/phirmware/covid-facts)
+[![travis build](https://travis-ci.com/phirmware/covid-facts.svg)](https://travis-ci.com/phirmware/covid-facts)
 [![codecov coverage](https://img.shields.io/codecov/c/github/phirmware/covid-facts)](https://codecov.io/github/phirmware/covid-facts)
 [![version](https://img.shields.io/npm/v/covid-facts.svg?style=flat-square)](http://npm.im/covid-facts)
 [![downloads](https://img.shields.io/npm/dm/covid-facts.svg?style=flat-square)](https://npm-stat.com/charts.html?package=covid-facts&from=2019-03-26)
 [![MIT License](https://img.shields.io/npm/l/starwars-names.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
+<!-- [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release) -->
 
 Get Facts And Tips About The COVID19 Pandemic.
 

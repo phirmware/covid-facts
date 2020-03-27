@@ -1,6 +1,6 @@
 {
   "name": "covid-facts",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "Get Random COVID-19 Facts",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "watch:test": "mocha --watch",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "nyc mocha",
-    "validate": "npm-run-all --parallel lint test build"
+    "validate": "npm-run-all --parallel lint test build",
+    "semantic-release": "semantic-release",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "covid-19",
@@ -37,7 +39,8 @@
     "ghooks": "^2.0.4",
     "mocha": "^7.1.1",
     "nyc": "^15.0.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "semantic-release": "^17.0.4"
   },
   "nyc": {
     "check-coverage": true,
@@ -62,5 +65,9 @@
     "ghooks": {
       "pre-commit": "npm run validate"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phirmware/covid-facts.git"
   }
 }

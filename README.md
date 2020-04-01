@@ -28,6 +28,18 @@ const randomFact = facts.random();
 const fourFacts = facts.some(4);
 
 ```
+For random tips on how to take care of yourself while you are at home
+
+```javascript
+
+const tips = require('covid-facts');
+const allTips = tips.allTips;
+const randomTip = tips.randomTips();
+const fourTips = facts.some(4);
+
+
+```
+
 ## Other
 
 This library was developed by [phirmware](https://twitter.com/phirmware).

@@ -1,7 +1,10 @@
 'use strict';
 
 const facts = require('./covid-facts.json');
+const tips = require('./covid-home.json');
 const uniqueRandomArray = require('unique-random-array');
+
+
 
 function returnNumber(number) {
     const shuffled = facts.sort(function(){return 0.5 - Math.random()});
@@ -11,6 +14,9 @@ function returnNumber(number) {
 
 module.exports = {
     random: uniqueRandomArray(facts),
-    all: facts,
-    some: returnNumber
+    randomTips: uniqueRandomArray(tips), 
+    all: facts, 
+    allTips: tips,
+    some: returnNumber,
+    someTips: returnNumber
 }
